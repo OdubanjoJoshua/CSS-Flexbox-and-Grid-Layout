@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding: 30px 0px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 5px 6px;
+}
+
+
+body{
+    width: 60%;
+    margin: auto;
+    background-color: hsl(0, 0%, 95%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    position: relative;
+    top: -50;
+    bottom: 50;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sedan a{
+    color: hsl(31, 77%, 52%);
+}
+.sedan .link:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+}
+.sedan a:hover{
+    color: #fff;
+}
+
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.suvs a{
+    color: hsl(184, 100%, 22%);
+}
+.suvs .link:hover{
+    background-color: transparent;
+}
+.suvs a:hover{
+    color: #fff;
+}
+
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.luxury a{
+    color: hsl(179, 100%, 13%);
+}
+.luxury a{
+    color: hsl(179, 100%, 13%);
+}
+.luxury .link:hover{
+    background-color: transparent;
+}
+.luxury a:hover{
+    color: #fff;
+}
+
+
+.car{
+    padding: 60px 60px;
+}
+.link {
+    margin-top: 30px;
+    margin-right: 100px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
